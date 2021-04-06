@@ -57,7 +57,9 @@ class StudentController extends Controller
             'guardian_mobile' => $students =$request->input('guardian_mobile')
 
         ]);
-        return back()->with('success', 'Information has been successfully entered');
+       // return back()->with('success', 'Information has been successfully entered');
+        return redirect('students')->with('success', 'Information has been successfully entered');
+
     }
 
     /**

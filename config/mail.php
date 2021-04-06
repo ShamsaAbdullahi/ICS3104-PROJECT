@@ -84,8 +84,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', '763c3573127212'),
-        'name' => env('MAIL_FROM_NAME', 'SMS'),
+        'address' => env('MAIL_FROM_ADDRESS', 'shmooney46@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Laravel'),
     ],
 
     'stream'=>[

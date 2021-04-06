@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FLOSSPA Editar Asistencia Evento </title>
+    <title></title>
     <link rel="stylesheet" href="{{asset('css/appp.css')}}">
     <link rel="stylesheet" href="{{asset('css/registry.css')}}">
 
@@ -107,7 +107,7 @@
             <div class="row">
 
                 <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                    <button type="submit" class="btn btn-success">Update</button>
+                    <button type="submit" class="btn btn-primary">Update</button>
                 </div>
             </div>
         </form>

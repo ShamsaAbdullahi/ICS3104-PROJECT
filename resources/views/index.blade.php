@@ -20,7 +20,7 @@
     <div class="container">
         <!-- <img src="equilateral.png" alt="FLOSSPA" srcset="{{ URL::to('/images/logo-flosspa.svg') }}"> -->
         <div class="block mb-8">
-                <a href="{{ route('students.create') }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Add Student</a>
+                <a href="{{ route('students.create') }}" class="bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Add Student</a>
             </div>
         <br />
         @if (\Session::has('success'))
@@ -56,7 +56,7 @@
                     <td>{{$students['age']}}</td>
                     
 
-                    <td><a href="{{action('App\Http\Controllers\StudentController@edit', $students['id'])}}" class="btn btn-warning">Edit</a>
+                    <td><a href="{{action('App\Http\Controllers\StudentController@edit', $students['id'])}}" class="btn btn-success">Edit</a>
                     </td>
                     <td>
                         <form onsubmit="return confirm('Do you really want to delete?');"

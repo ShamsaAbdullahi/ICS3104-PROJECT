@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>STUDENT MANAGEMENT SYSTEM </title>
+    <title>STUDENT MANAGEMENT SYSTEM</title>
     <link rel="stylesheet" href="{{asset('css/appp.css')}}">
     <link rel="stylesheet" href="{{asset('css/registry.css')}}">
 
@@ -21,7 +21,7 @@
 
 <body>
     <div class="container">
-        <!-- <img alt="FLOSSPA" srcset="{{ URL::to('/images/logo-flosspa.svg') }}"> -->
+        <!-- <img alt="" srcset="{{ URL::to('/images/logo-flosspa.svg') }}"> -->
 
         @if ($errors->any())
         <div class="alert alert-danger">
@@ -42,15 +42,15 @@
             {{csrf_field()}}
             <div class="row">
                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                    <label for="name">ADM NUMBER:</label>
+                    <label for="name">ADM NUMBER</label>
                     <input type="number" class="form-control" name="admin" value={{old('admin')}}>
                 </div>
                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                    <label for="name">FIRST NAME:</label>
+                    <label for="name">FIRST NAME</label>
                     <input type="text" class="form-control" name="fullname" value={{old('fullname')}}>
                 </div>
                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                    <label for="name">SURNAME:</label>
+                    <label for="name">SURNAME</label>
                     <input type="text" class="form-control" name="surname" value={{old('surname')}}>
                 </div>
                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
@@ -106,7 +106,7 @@
             <div class="row">
 
                 <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                    <button type="submit" class="btn btn-success">REGISTER</button>
+                    <button type="submit" class="btn btn-primary">REGISTER</button>
                 </div>
             </div>
         </form>
