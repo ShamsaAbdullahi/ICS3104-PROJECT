@@ -17,6 +17,13 @@
                     </x-jet-nav-link>
                 </div>
 
+                 <!-- Navigation Links -->
+                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('home.index') }}" :active="request()->routeIs('home.index')">
+                        {{ __('Home') }}
+                    </x-jet-nav-link>
+                </div>
+
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('students.index') }}" :active="request()->routeIs('students.index')">
