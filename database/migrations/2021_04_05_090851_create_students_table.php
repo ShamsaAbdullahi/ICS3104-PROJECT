@@ -29,7 +29,7 @@ class CreateStudentsTable extends Migration
 
 
             $table->timestamps();
-            $table->primary(array('id', 'admin'));
+           // $table->primary(array('id', 'admin'));
 
         });
         DB::statement('ALTER TABLE students MODIFY id INTEGER NOT NULL AUTO_INCREMENT');
